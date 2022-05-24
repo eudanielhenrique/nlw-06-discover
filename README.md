@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Rocket.Q" title="Rocket.Q" src="nlw-06-discover/assets/logo.svg" width="220px" />
+  <img alt="Rocket.Q" title="Rocket.Q" src="./assets/logo.svg" width="220px" />
 </h1>
 
 
