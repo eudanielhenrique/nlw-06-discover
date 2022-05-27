@@ -1,0 +1,27 @@
+{
+  "name": "nlw-06-discover",
+  "version": "1.0.0",
+  "description": "O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eudanielhenrique/nlw-06-discover.git"
+  },
+  "keywords": [],
+  "author": "Daniel Henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eudanielhenrique/nlw-06-discover/issues"
+  },
+  "homepage": "https://github.com/eudanielhenrique/nlw-06-discover#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

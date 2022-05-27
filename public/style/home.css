@@ -1,26 +1,24 @@
-.content{
+.content {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 11.4rem 1fr;
 
-  grid-template-areas: 
-  'header header'
-  'left right'
-  
+  grid-template-areas:
+    'header header'
+    'left right';
 }
 
-header{
+header {
   grid-area: header;
 }
 
-#bg{
+#bg {
   grid-area: left;
-  background: url('/assets/home-bg-img.svg') no-repeat top/contain;
+  background: url('/images/home-bg-img.svg') no-repeat top/contain;
   background-position-x: -10rem;
-
 }
 
-main{
+main {
   grid-area: right;
 
   display: flex;
@@ -29,11 +27,11 @@ main{
   margin-top: -12rem;
 }
 
-main .container{
+main .container {
   width: min(36.3rem, 100%);
 }
 
-main h2{
+main h2 {
   font-family: 'Poppins', sans-serif;
   font-size: clamp(20px, 2.8rem, 5vw);
   color: var(--black);
@@ -41,25 +39,27 @@ main h2{
   margin-bottom: 2.4rem;
 }
 
-input{
-  border: .2rem solid var(--grey-blue);
+input {
+  border: 0.2rem solid var(--grey-blue);
   padding: 0 1.6rem;
+  outline: none;
 }
 
-input,button, .button{
+input,
+button,
+.button {
   width: 100%;
   margin-bottom: 1.8rem;
 }
 
 /* Separador line */
-.separator{
+.separator {
   display: flex;
   align-items: center;
   margin: 4rem 0;
-
 }
 
-.separator div:nth-child(2){
+.separator div:nth-child(2) {
   color: var(--grey-blue);
   padding: 0 1.35rem;
   line-height: 0;
@@ -68,34 +68,34 @@ input,button, .button{
 }
 
 .separator div:nth-child(1),
-.separator div:nth-child(3){
+.separator div:nth-child(3) {
   background: var(--grey-blue);
   width: 100%;
-  height: .1rem;
+  height: 0.1rem;
 }
 
 /* Create balls */
 
-.ball{
+.ball {
   width: 21.2rem;
   height: 21.2rem;
   background: var(--blue);
 
-  clip-path: circle(50.0% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
   position: fixed;
 
   opacity: 0.1;
 }
 
-.ball.top{
+.ball.top {
   top: -45rem;
   right: -30rem;
 
   width: 63.3rem;
-  height: 63.3rem;;
+  height: 63.3rem;
 }
 
-.ball.bottom{
+.ball.bottom {
   bottom: -15rem;
   right: 5.6rem;
 }
